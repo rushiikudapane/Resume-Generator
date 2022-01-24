@@ -160,7 +160,7 @@ function deleteAchievement() {
 //generating CV
 function generateCV() {
   //for name
-  let nameFieldOb = document.getElementById("nameField").value.required;
+  let nameFieldOb = document.getElementById("nameField").value;
   let nameT1 = document.getElementById("nameT1");
 
   nameT1.innerHTML = nameFieldOb;
